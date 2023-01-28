@@ -22,4 +22,4 @@ jobs:
           key: "${{ github.ref }}"
           path: ".cache"
       - run: "pip install -r requirements.txt"
-      - run: "mkdocs gh-deploy --force"
+      - run: "mkdocs gh-deploy --force --site-dir site"
