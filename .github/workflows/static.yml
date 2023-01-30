@@ -28,15 +28,32 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: "Checkout"
+        uses: "actions/checkout@v3"
+        
+      - name: "Setup Python"
+        uses: "actions/setup-python@v4"
+        with:
+          python-version: "3.9"
+      
+      - name: "Cache Pages"
+        uses: "actions/cache@v2"
+        with:
+          key: "${{ github.ref }}"
+          path: ".cache"
+      
+      - run: "pip install -r requirements.txt"
+      - run: "mkdocs gh-deploy --force"
+      
+      - name: "Setup Pages"
+        uses: "actions/configure-pages@v3"
+      
+      - name: "Upload artifact"
+        uses: "actions/upload-pages-artifact@v1"
         with:
           # Upload entire repository
           path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          
+      - name: "Deploy to GitHub Pages"
+        id: "deployment"
+        uses: "actions/deploy-pages@v1"
