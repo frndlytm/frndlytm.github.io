@@ -3,8 +3,9 @@ copyright: "Copyright &copy; 2023 Christian DiMare-Baits"
 
 nav:
   - Home: "index.md"
+  - About: "about.md"
   - Career: "career.md"
-  - Education: "courses.md"
+  - Courses: "courses.md"
   - Projects: "projects.md"
   - Skills: "skills.md"
 
@@ -38,6 +39,7 @@ plugins:
 
 markdown_extensions:
   - attr_list:
+  - def_list:
   - footnotes:
   - md_in_html:
   - tables:
