@@ -1,6 +1,6 @@
 ---
 title: frndlytm@github.com
-description: Christian DiMare-Baits Engineering Portfolio Website
+description: Career - Portfolio - Christian DiMare-Baits
 hide:
   - navigation
 ---

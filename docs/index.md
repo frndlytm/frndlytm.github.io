@@ -7,10 +7,11 @@ hide:
 
 # About Me
 
+![Me, with Purple Hair](images/me/headshot-purple.jpg){ style="float:right; border: 2px solid teal", width="25%", padding="10%"}
+
 > "[T]he past is no longer, the future is not yet, and as for the instantaneous present,
 > everyone knows it is not at all: it is the limit of infinite division, like the
 > dimensionless point." - Jean Paul Satre, Being and Nothingness
-
 
 Attacking difficult problems with innovative solutions has always energized me. I am a
 driven, talented, and creative man with an analytical mind capable of extremely abstract
@@ -55,6 +56,6 @@ humanity can right itself for many generations to come.
 ## Learn More
 
 * About my [Career](career.md).
-* About my [Course Work](courses.md).
-* About my [Technical Abilities](skills.md).
+* About my [Courses](courses.md).
+* About my [Skills](skills.md).
 * About my [Projects](projects.md)

@@ -1,6 +1,18 @@
----
-title: frndlytm@github.com
-description: Christian DiMare-Baits Engineering Portfolio Website
-hide:
-  - navigation
----
+* antlr4
+* click
+* convokit
+* cookiecutter
+* FastAPI
+* gymnasium
+* jinja2
+* nltk
+* pydantic
+* pytorch
+* scrapy
+* selenium
+* sqlalchemy
+
+* ElasticSearch
+* Neo4j
+* BigQuery
+* Docker

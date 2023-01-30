@@ -11,13 +11,16 @@ nav:
 theme:
   name: "material"
   language: "en"
+
   palette:
     scheme: "slate"
     primary: "deep purple"
     accent: "cyan"
+
   font:
     text: "Montserrat"
     code: "Red Hat Mono"
+
   features:
     - "navigation.footer"
     - "navigation.tabs"
@@ -46,6 +49,10 @@ markdown_extensions:
   - pymdownx.caret:
   - pymdownx.mark:
   - pymdownx.tilde:
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
   - pymdownx.superfences:
       custom_fences:
         - name: "mermaid"
