@@ -6,8 +6,8 @@ nav:
   - About: "about.md"
   - Career: "career.md"
   - Courses: "courses.md"
-  - Projects: "projects.md"
   - Skills: "skills.md"
+  - Projects: "projects.md"
 
 theme:
   name: "material"

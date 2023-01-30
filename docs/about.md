@@ -12,6 +12,7 @@ hide:
 > "[T]he past is no longer, the future is not yet, and as for the instantaneous present,
 > everyone knows it is not at all: it is the limit of infinite division, like the
 > dimensionless point." 
+>
 > \- Jean Paul Sartre, Being and Nothingness
 
 Attacking difficult problems with innovative solutions has always energized me. I am a
