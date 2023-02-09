@@ -3,13 +3,15 @@ title: frndlytm@github.com
 description: Courses - Portfolio - Christian DiMare-Baits
 hide:
   - navigation
+toc:
+  -
 ---
 
 ![NEU Khoury Logo](images/NU_KCCS_Light.png){ .center, width="75%" }
 
 ## Masters in Artificial Intelligence
 
-At some point in my career, I want to pursue a Ph.D. 
+At some point in my career, I want to pursue a Ph.D.
 
 As an intermediate step towards this goal, I seized the opportunity that quarantining
 during the COVID-19 pandemic offered in remote work at Wayfair to pursue double full-time
@@ -23,11 +25,11 @@ information retrieval for database metadata.
 The following are the course descriptions for each of the courses I completed during my
 masters education (in order of semester):
 
-### 2021 - Fall
+### 2021 Fall
 
-**MATH7233: Graph Theory**
+??? abstract "MATH7233: Graph Theory"
 
-:   Covers fundamental concepts in graph theory. Topics include adjacency and incidence
+    Covers fundamental concepts in graph theory. Topics include adjacency and incidence
     matrices, paths and connectedness, and vertex degrees and counting; trees and distance
     including properties of trees, distance in graphs, spanning trees, minimum spanning
     trees, and shortest paths; matchings and factors including matchings in bipartite
@@ -40,21 +42,20 @@ masters education (in order of semester):
     embeddings and Euler's formula, characterization of planar graphs (Kuratowski's theorem);
     and Ramsey theory including Ramsey's theorem, Ramsey numbers, and graph Ramsey theory.
 
-**CS5800: Algorithms**
+??? abstract "CS5800: Algorithms"
 
-:   Presents the mathematical techniques used for the design and analysis of computer
+    Presents the mathematical techniques used for the design and analysis of computer
     algorithms. Focuses on algorithmic design paradigms and techniques for analyzing
     the correctness, time, and space complexity of algorithms. Topics may include
     asymptotic notation, recurrences, loop invariants, Hoare triples, sorting and
     searching, advanced data structures, lower bounds, hashing, greedy algorithms,
     dynamic programming, graph algorithms, and NP-completeness.
 
+### 2022 Spring
 
-### 2022 - Spring
+??? abstract "CS6120: Natural Language Processing"
 
-**CS6120: Natural Language Processing**
-
-:   Provides an introduction to the computational modeling of human language, the ongoing
+    Provides an introduction to the computational modeling of human language, the ongoing
     effort to create computer programs that can communicate with people in natural language,
     and current applications of the natural language field, such as automated document
     classification, intelligent query processing, and information extraction. Topics include
@@ -63,9 +64,9 @@ masters education (in order of semester):
     agents. Course work includes formal and mathematical analysis of language models, and
     implementation of working programs that analyze and interpret natural language text.
 
-**CS6140: Machine Learning**
+??? abstract "CS6140: Machine Learning"
 
-:   Provides a broad look at a variety of techniques used in machine learning and data
+    Provides a broad look at a variety of techniques used in machine learning and data
     mining, and also examines issues associated with their use. Topics include algorithms
     for supervised learning including decision tree induction, artificial neural networks,
     instance-based learning, probabilistic methods, and support vector machines;
@@ -73,12 +74,11 @@ masters education (in order of semester):
     theory and other methods for analyzing and measuring the performance of learning
     algorithms. Course work includes a programming term project.
 
+### 2022 Fall
 
-### 2022 - Fall
+??? abstract "CS5180: Reinforcement Learning"
 
-**CS5180: Reinforcement Learning**
-
-:   Introduces reinforcement learning and the underlying computational frameworks and
+    Introduces reinforcement learning and the underlying computational frameworks and
     the Markov decision process framework. Covers a variety of reinforcement learning
     algorithms, including model-based, model-free, value function, policy gradient,
     actor-critic, and Monte Carlo methods. Examines commonly used representations
@@ -87,9 +87,9 @@ masters education (in order of semester):
     algebra, to complete programming assignments, and to complete a course project that
     applies some form of reinforcement learning to a problem of interest.
 
-**CS6200: Information Retrieval**
+??? abstract "CS6200: Information Retrieval"
 
-:   Provides an introduction to information retrieval systems and different approaches to
+    Provides an introduction to information retrieval systems and different approaches to
     information retrieval. Topics covered include evaluation of information retrieval
     systems; retrieval, language, and indexing models; file organization; compression;
     relevance feedback; clustering; distributed retrieval and meta-search; probabilistic
@@ -97,12 +97,11 @@ masters education (in order of semester):
     and recommendation systems; cross-language IR; multimedia IR; and machine learning for
     information retrieval.
 
+### 2023 Spring
 
-### 2023 - Spring
+??? abstract "CS5100: Foundations of Artificial Intelligence"
 
-**CS5100: Foundations of Artificial Intelligence**
-
-:   Introduces the fundamental problems, theories, and algorithms of the artificial
+    Introduces the fundamental problems, theories, and algorithms of the artificial
     intelligence field. Topics include heuristic search and game trees, knowledge
     representation using predicate calculus, automated deduction and its applications,
     problem solving and planning, and introduction to machine learning. Required course
@@ -110,9 +109,9 @@ masters education (in order of semester):
     and/or improve their own performance using techniques presented in the course. Requires
     experience in Java programming.
 
-**CS5340: Human-Computer Interaction**
+??? abstract "CS5340: Human-Computer Interaction"
 
-:   Covers the principles of human-computer interaction and the design and evaluation of
+    Covers the principles of human-computer interaction and the design and evaluation of
     user interfaces. Topics include an overview of human information processing subsystems
     (perception, memory, attention, and problem solving); how the properties of these
     systems affect the design of user interfaces; the principles, guidelines, and
@@ -124,7 +123,6 @@ masters education (in order of semester):
     language interfaces, and virtual reality interfaces. Course work includes both the
     creation and implementation of original user interface designs, and the evaluation of
     user interfaces created by others. Requires knowledge of C programming language/UNIX.
-
 
 ![NU Mathematics Logo](images/NU_COS_Mathematics_Light.png){ .center, width="75%" }
 
